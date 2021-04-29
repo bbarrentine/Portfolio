@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Brittany's Portfolio</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quattrocento&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+        <h1>Brittany's Portfolio</h1>
+    <header class="menu-wrap">
+            <input type="checkbox" id="checkbox">                                  
+            <nav>
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="portfolio.html"> Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="checkbox" class="menu-icon">☰</label>
+        </header>
+<main>
+    <section class="c-wrapper">
+    <div class="contact-info">
+        <h2 class="contact-heading">Contact Me!</h2>
+        <p>
+            Phone number: 919-123-4567 <br>
+            Email Address: brit.barrentine@gmail.com
+        </p>
+        <br>
+        <h3>Send me a quick message!</h3> <br>
+    <div class="border">
+        <form action="form">
+            <label for="fname" class="fname">First Name:</label>
+            <input type="text" id="fname" name="fName"> <br>
+            <label for="lname" class="lname">Last Name:</label> 
+            <input type="text" id="lname" name="lName"> <br>
+             <label for="email" class="email">Email:</label> 
+            <input type="text" id="email" name="email"> <br>
+            <label for="service" class="service">What service can I provide?</label>
+            <select name="service" id="service" class="service">
+                <option value="graphicdesign">Graphic Design</option>
+                <option value="webdesign">Web Design</option>
+            </select> 
+            <br>
+            <label for="about" class="about-proj">Tell me a little about your project</label> <br>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea> <br>
+            <input type="submit" class="submit" value="Submit">
+        </form>
+    </div>
+    </div>
+    <img src="images/me.JPG" alt="Portfolio-picture of me" class="me-pic">
+</section>
+</main>
